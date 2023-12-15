@@ -1,0 +1,24 @@
+{
+  "name": "uclogic-firmware-names",
+  "version": "1.0.0",
+  "description": "Use me to create a list of firmware name <-> table model for UCLogic-like drawing tablets",
+  "homepage": "https://github.com/JoseExposito/uclogic-firmware-names#readme",
+  "author": "José Expósito",
+  "license": "GPL-3.0",
+  "main": "index.js",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoseExposito/uclogic-firmware-names.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JoseExposito/uclogic-firmware-names/issues"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "rimraf": "^5.0.5"
+  }
+}
